@@ -10,12 +10,12 @@ function App() {
     const [greased, setGreased] = useState(false); // State for greased filter
     const [sortBy, setSortBy] = useState(""); // State for sorting
 
-    // Function to filter greased hogs
+    // Function to toggle greased filter
     const toggleGreased = () => {
         setGreased((prev) => !prev);
     };
 
-    // Function to sort hogs
+    // Function to handle sorting option change
     const handleSortChange = (sortOption) => {
         setSortBy(sortOption);
     };
