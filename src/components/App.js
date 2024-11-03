@@ -4,6 +4,8 @@ import HogTile from "./HogTile"; // Import HogTile component
 import FilterSort from "./FilterSort"; // Import FilterSort component
 import AddHogForm from "./AddHogForm"; // Import AddHogForm component
 import hogsData from "../porkers_data"; // Import hog data
+import 'semantic-ui-css/semantic.min.css';
+
 
 function App() {
     const [hogs, setHogs] = useState(hogsData); // State for hogs
